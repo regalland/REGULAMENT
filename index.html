@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulament — Regal Land RP</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-blobs" aria-hidden="true">
+  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="blob b4"></span>
+</div>
+
+<div class="sidebar-overlay" id="overlay"></div>
+
+<header class="topbar">
+  <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+  <a href="#top" class="brand">
+    <img src="logo.png" alt="Regal Land">
+    <div class="brand-text">
+      <span class="name">REGAL LAND</span>
+      <span class="sub">Regulament RedM</span>
+    </div>
+  </a>
+  <div class="topbar-search" id="searchWrap">
+    <svg class="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" placeholder="Caută în regulament… (ex: metagaming, jaf bancă, 2.10, răpire)" autocomplete="off">
+    <button class="clear-btn" id="clearBtn" aria-label="Șterge căutarea">✕</button>
+  </div>
+  <span class="results-count" id="resultsCount"></span>
+</header>
+
+<div class="layout" id="top">
+  <aside class="sidebar" id="sidebar">
+    <p class="side-label">Cuprins</p>
+    <ul class="side-nav" id="sideNav"></ul>
+  </aside>
+
+  <main>
+    <div id="content"></div>
+
+    <div class="no-results" id="noResults">
+      <div class="oct-big">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </div>
+      <h3>Niciun articol găsit</h3>
+      <p>Încearcă alt termen sau șterge filtrul.</p>
+    </div>
+
+    <footer class="site-footer">
+      <span>Acest regulament a fost scris și gândit de administrația serverului <strong>REGAL LAND</strong>.</span>
+      <span>Interpretarea regulilor în avantaj propriu <strong>se sancționează</strong>.</span>
+    </footer>
+  </main>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Sus">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
