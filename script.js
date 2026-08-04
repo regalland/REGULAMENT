@@ -769,7 +769,8 @@ const DATA = [
     { c:'3.15', t:'Instigarea unei revolte', ty:'penal', p:{ m:'200-1.000$', ln:'80-120 luni' }},
     { c:'3.16', t:'Calomnie', ty:'penal', p:{ m:'70-150$', ln:'30-50 luni' }},
     { c:'3.17', t:'Înșelăciune', ty:'penal', p:{ m:'400-1.000$', ln:'120-200 luni', x:'Returnarea bunurilor/contravalorii' }},
-    { c:'3.18', t:'Eveniment neautorizat în spațiul public', ty:'penal', p:{ m:'150-450$', ln:'30 luni', x:'Infracțiune cu închiderea suspectului' }}
+    { c:'3.18', t:'Eveniment neautorizat în spațiul public', ty:'penal', p:{ m:'150-450$', ln:'30 luni', x:'Infracțiune cu închiderea suspectului' }},
+    { c:'3.19', t:'Profanare de morminte', ty:'penal', p:{ m:'100-300$', ln:'60-100 luni', x:'Infracțiune cu închiderea suspectului + Confiscarea uneltelor folosite impreuna cu bunurile sustrase' }}
   ]},
 
   { code:'CAP. 4', title:'Infracțiuni asupra justiției', articles:[
